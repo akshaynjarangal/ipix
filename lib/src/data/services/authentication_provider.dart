@@ -1,6 +1,6 @@
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
-class AuthenticationProvider{
+class AuthenticationService{
   static const storage = FlutterSecureStorage();
 
    static Future<bool> login({required String username,required String password}) async {

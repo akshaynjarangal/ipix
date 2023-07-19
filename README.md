@@ -1,16 +1,28 @@
-# akshaytest
+## Project Structure
 
-A new Flutter project.
+The project follows a standard Flutter application structure:
 
-## Getting Started
+- `lib/`: Contains the main application code.
+  - `main.dart`: The entry point of the app.
+  - `screens/`: Contains various pages/screens of the app.
+  - `data/models/`: Contains data models used within the app.
+  - `data/services/`: Contains services responsible for handling API calls and data operations.
+  - `data/repositories`: Contains repository classes and helper functions.
+  - `logic/`: Contains BLoCs (Business Logic Components) for state management.
 
-This project is a starting point for a Flutter application.
+## Dependencies
 
-A few resources to get you started if this is your first Flutter project:
+The project uses the following Flutter packages for common functionalities:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `flutter_bloc`: For implementing the BLoC pattern and state management.
+- `equatable`: For easy comparison of objects to implement value equality.
+- `http`: For making API calls and handling HTTP requests.
+- `shared_preferences`: For simple and persistent local storage of app preferences.
+- `dartz`: For functional programming in Dart, providing options, and other algebraic data types.
+- `shimmer`: For creating shimmering loading effects for placeholders in the UI.
+- `url_launcher`: For launching URLs and navigating to external web pages.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Please ensure you have the required dependencies installed before running the project.
+
+## Flutter Version
+This project created with SDK v3.10.5 and following Material3 Design

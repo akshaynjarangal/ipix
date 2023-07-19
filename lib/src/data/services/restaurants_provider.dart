@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../../constants/constants.dart';
 import '../../constants/error_handlers.dart';
 
-class RestaurantsProvider{
+class RestaurantsService{
   static Future<Either<MainFailures,http.Response>> get getRestaurants async {
    try {
       final url = Uri.https(AppUrls.host, AppUrls.restaurantsEndPoint);
