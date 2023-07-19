@@ -4,11 +4,11 @@ The project follows a standard Flutter application structure:
 
 - `lib/`: Contains the main application code.
   - `main.dart`: The entry point of the app.
-  - `screens/`: Contains various pages/screens of the app.
-  - `data/models/`: Contains data models used within the app.
-  - `data/services/`: Contains services responsible for handling API calls and data operations.
-  - `data/repositories`: Contains repository classes and helper functions.
-  - `logic/`: Contains BLoCs (Business Logic Components) for state management.
+  - `src/screens/`: Contains various pages/screens of the app.
+  - `src/data/models/`: Contains data models used within the app.
+  - `src/data/services/`: Contains services responsible for handling API calls and data operations.
+  - `src/data/repositories`: Contains repository classes and helper functions.
+  - `src/logic/`: Contains BLoCs (Business Logic Components) for state management.
 
 ## Dependencies
 
